@@ -2,7 +2,7 @@ import type { IAuthenticateGeneric, ICredentialTestRequest, ICredentialType, INo
 
 export class AceDataKlingVideoApi implements ICredentialType {
   name = 'aceDataKlingVideoApi';
-  displayName = 'Kling Video by Ace Data Cloud API';
+  displayName = 'Kling Video API';
   documentationUrl = 'https://github.com/AceDataCloud/KlingN8N#3-save-the-credential-in-n8n';
   icon = 'file:../nodes/KlingVideo/icon.svg' as const;
   properties: INodeProperties[] = [{
